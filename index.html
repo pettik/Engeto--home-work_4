@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Jméno a příjmení: Petr Bednarski -->
+      <!-- E-mail: petrbednarski@seznam.cz -->
+      <!-- Discord: pettik_ (PetrB) -->
+      <!-- Github.com: https://github.com/pettik -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--==================== ENGETO FAVICON ====================-->
+      <link rel="icon" href="img/favicon.ico" type="image/x-icon" sizes="16x16"/>
+      <!--==================== GOOGLE FONTS - ROBOTO ====================-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+      <!--==================== CSS STYLES ====================-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--==================== TITLE ====================-->
+      <title>DÚ | Lekce 4.1: Flexbox</title>
+   </head>
+   <body>
+      <!--==================== MAIN ====================-->
+      <main class="container">
+         <!--==================== HERO SECTION ====================-->
+         <section class="hero__section">
+            <div class="hero__text">
+               <h1 class="hero__text__title">Nakupujte ještě dnes za bezkonkurenční ceny!</h1>
+               <p class="hero__text__subtitle">Vaše destinace pro úspory a styl</p>
+            </div>
+            <span class="hero__sale">25% OFF</span>
+            <button class="hero__btn">Více</button>
+         </section>
+         <!--==================== PROMO SECTION ====================-->
+         <section class="promo__section">
+            <div class="promo__card ">
+               <div class="promo__card__img card__1"></div>
+               <div class="promo__content">
+                  <h2 class="promo__heading">
+                     Speciální nabídka robotických vysavačů!
+                  </h2>
+                  <button class="promo__button">
+                  Více
+                  </button>
+               </div>
+            </div>
+            <div class="promo__card">
+               <div class="promo__card__img card__2"></div>
+               <div class="promo__content">
+                  <h2 class="promo__heading">
+                     Nejlepší ceny na všechny mobilní telefony!
+                  </h2>
+                  <button class="promo__button">
+                  Více
+                  </button>
+               </div>
+            </div>
+            <div class="promo__card">
+               <div class="promo__card__img card__3"></div>
+               <div class="promo__content">
+                  <h2 class="promo__heading">
+                     Objevte nepřekonatelné nabídky na módu a oblečení!
+                  </h2>
+                  <button class="promo__button">
+                  Více
+                  </button>
+               </div>
+            </div>
+         </section>
+         <!--==================== CARDS SECTION ====================-->
+         <section class="product__card__section">
+            <!--==================== CARD 1 ====================-->
+            <div class="product__card_1">
+               <span class="product__card_badge">Bestseller</span>
+               <span class="product__card_discount">-50%</span>
+               <div class="product__card_image">
+                  <img src="assets/img/bota.png" alt="Product 1">
+               </div>
+               <h1 class="product__card_heading">
+                  Kvalitní Pánská Sportovní Bota Nike METCON 2
+               </h1>
+               <p class="product__card_description">
+                  Tato pánská sportovní bota je dokonalým spojením komfortu a stylu.
+                  Vyrobena z vysoce kvalitního materiálDu, nabízí optimální oporu a
+                  pohodlí pro vaše nohy...
+               </p>
+               <span class="product__card_info">Více info</span>
+               <div class="product__details_container">
+                  <span class="product__shipping_label">Doprava zdarma</span>
+                  <span class="product__stock_label">Skladem 4 kusy</span>
+               </div>
+               <span class="product__price_label">Cena produktu</span>
+               <span class="product__price">2799 Kč</span>
+               <span class="product__discount_price">1100 Kč</span>
+               <button class="product__card_add_btn">Přidat do košíku</button>
+            </div>
+            <!--==================== CARD 2 ====================-->
+            <div class="product__card_2">
+               <span class="product__card_badge">Bestseller</span>
+               <span class="product__card_badge__second">Produkt roku 2023</span>
+               <span class="product__card_discount">-20%</span>
+               <div class="product__card_image">
+                  <img src="assets/img/pc-card.png" alt="Product 2">
+               </div>
+               <h1 class="product__card_heading">
+                  HP Pavilion 15-dk0002nc Stolní Počítač
+               </h1>
+               <p class="product__card_description">
+                  HP Pavilion 15-dk0002nc je výkonný stolní počítač, který splní vaše všechny počítačové potřeby. Tento model je vybaven nejnovějším procesorem, velkou pamětí RAM a rychlou grafickou kartou, což ho činí ideálním pro náročné úkoly, hraní her i produktivní práci.
+               </p>
+               <div class="product__card_price_container">
+                  <span class="product__card_price">35 990,-</span>
+                  <span class="product__card_discount_price">Ušetříte 1000,</span>
+                  <button class="product__card_add_to_basket_btn">Do košíku</button>
+               </div>
+               <div class="product__card_shipping">
+                  <span class="product__card__shipping_info">Poštovní box 1500 metrů od tvé lokace</span>
+                  <span class="product__card__shipping_label">info</span>
+               </div>
+            </div>
+            <!--==================== CARD 3 ====================-->
+            <div class="product__card_3">
+               <span class="product__card_badge">Bestseller</span>
+               <span class="product__card_discount">-35%</span>
+               <div class="product__card_image">
+                  <img src="assets/img/kosacka.png" alt="Product 3">
+               </div>
+               <h1 class="product__card_heading">
+                  Bosch AdvancedRotak 750 Turbo
+               </h1>
+               <p class="product__card_description">
+                  Bosch AdvancedRotak vám ušetří čas a úsilí při údržbě zeleného trávníku. S jeho inovativními funkcemi a výkonným motorem zajišťuje perfektní a rovnoměrný výsledek sečení..
+               </p>
+               <div class="product__card_price_container">
+                  <span class="product__card_price">5 990,-</span>
+                  <span class="product__card_discount_price">Ušetříte 1500,</span>
+                  <button class="product__card_add_to_basket_btn">Do košíku</button>
+               </div>
+               <div class="product__card_shipping">
+                  <span class="product__card__shipping_info">Poštovní box 2500 metrů od tvé lokace</span>
+                  <span class="product__card__shipping_label">info</span>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- https://charming-torrone-ffb267.netlify.app/ -->
+   </body>
+</html>
