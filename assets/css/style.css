@@ -7,7 +7,6 @@
 }
 
 :root {
-
 	/*========== Colors ==========*/
 	--white-color: #fff;
 	--black-color: #000;
@@ -37,7 +36,6 @@
 	:root {
 		--hero-title-size: 42px;
 		--link-size: 1rem;
-
 		--body-margin: 0.5rem 2rem;
 	}
 }
