@@ -20,7 +20,7 @@
   }
   
   .hero-section {
-    background-image: url("./images/hero-section-img.png");
+    background-image: url("./assets/img/hero-section-img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,13 +132,13 @@
   }
   
   .promo-card-1 {
-    background-image: url("./images/vysavac.png");
+    background-image: url("./assets/img/vysavac.png");
   }
   .promo-card-2 {
-    background-image: url("./images/mobil.png");
+    background-image: url("./assets/img/mobil.png");
   }
   .promo-card-3 {
-    background-image: url("./images/clothes.png");
+    background-image: url("./assets/img/clothes.png");
   }
   
   /* CARDS SECTION */
