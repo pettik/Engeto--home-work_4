@@ -62,7 +62,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-	width: 90%;
+	width: 95%;
 	margin: 2rem auto;
 	overflow: hidden;
 }
@@ -78,7 +78,6 @@ a {
 	padding: 2rem;
 	margin-bottom: 2rem;
 	position: relative;
-
 	background-image: url('../img/hero-section-img.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -151,7 +150,7 @@ a {
 .promo__card {
 	position: relative;
 	height: 250px;
-	width: 70%;
+	width: 100%;
 	min-width: 300px;
 	overflow: hidden;
 	border-radius: var(--border-image-radius);
@@ -202,7 +201,6 @@ a {
 .product__card_2,
 .product__card_3 {
 	width: 23.125rem;
-	min-height: 45rem;
 	background-color: var(--white-color);
 	padding: 1rem;
 	position: relative;
@@ -282,7 +280,6 @@ a {
 	font-size: 1.15rem;
 	text-transform: uppercase;
 	display: block;
-	;
 	padding: .5rem;
 	border: 1px solid var(--cards-red);
 	background-color: var(--white-color);
@@ -342,7 +339,6 @@ a {
 	color: var(--white-color);
 	font-weight: bold;
 	font-size: .875rem;
-	;
 	position: absolute;
 	top: 4.5rem;
 	left: 0rem;
@@ -358,7 +354,8 @@ a {
 .product__card_price_container {
 	background-color: var(--cards-red-light);
 	display: flex;
-	padding: 1.5rem;
+	flex-wrap: wrap;
+	padding: .75rem;
 	border-radius: var(--border-btn-radius);
 	margin-bottom: 1.25rem;
 }
@@ -366,6 +363,7 @@ a {
 .product__card__price_left {
 	width: 60%;
 	font-weight: bold;
+	flex: 1;
 }
 
 .product__card_price {
@@ -419,17 +417,64 @@ a {
 }
 
 /*=============== MEDIA QUERIES ===============*/
+
+@media screen and (min-width: 400px) {
+	.promo__card {
+		width: 70%;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.container {
 		width: 80%;
 	}
 
+	.hero__section {
+		background-position: 50% 65%;
+	}
+
+	.hero__text {
+		padding-right: 8rem;
+	}
+
+	.hero__sale {
+		display: block;
+		background-color: var(--hero-btn-red);
+		border-radius: 50%;
+		height: 5rem;
+		width: 5rem;
+		line-height: 5rem;
+		position: absolute;
+		top: 3.125rem;
+		right: 3.125rem;
+		font-size: 1.125rem;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+	}
+
 	.promo__section {
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
+
 	}
 
 	.promo__card {
-		width: 295px;
+		flex-basis: 295px;
+	}
+
+	.product__card_2 .product__card_description,
+	.product__card_3 .product__card_description {
+		min-height: 7rem;
+	}
+
+	.product__card_price_container {
+		padding: 1.5rem;
+	}
+
+	.product__card_1,
+	.product__card_2,
+	.product__card_3 {
+		min-height: 45rem;
 	}
 }
