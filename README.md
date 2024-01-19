@@ -12,10 +12,9 @@ Cílem je vytvořit jednoduchou responzívní stránku s hero, promo a card sekc
 
 ### Náhled mého řešení
 #### Desktop verze 💻
-<img src="my_solution_desktop.png" alt="Design preview">
+<img src="assets/design/my_solution_desktop.png" alt="Design preview" >
 
 #### Mobilní verze 📲
-
-<img src="my_solution_mobile.png" alt="Design preview" width="300px">
+<img src="assets/design/my_solution_mobile.png" alt="Design preview" width="300px" border="1">
 
 
